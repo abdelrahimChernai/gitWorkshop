@@ -1,0 +1,32 @@
+.navigation {
+  height: 80px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#nav-logo {
+  height: 80px;
+  margin-left: 100px;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  margin-right: 100px;
+}
+
+.nav-item {
+  padding: 28px;
+}
+
+.nav-item:hover {
+  background-color: #80808080;
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
